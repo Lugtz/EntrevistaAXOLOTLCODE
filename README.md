@@ -51,10 +51,14 @@ Para su Ejecucion:
    ```bash
    pip install ultralytics
    pip install opencv-python
+   pip install numpy
    Si tienes problemas con la cámara en Windows, puedes instalar también:
    pip install opencv-contrib-python
    Verifica la instalación:
    python -c "import cv2; import ultralytics; print('Todo listo')"
+   ultralytics>=8.0.0
+   opencv-python>=4.5.0
+    numpy>=1.19.0
   
 
    ```
