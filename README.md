@@ -49,6 +49,11 @@ Para su Ejecucion:
 3. Instalar dependencias:
 
    ```bash
+   #Se necesita una version de Python 3.12 si no la tienes usa el siguiente comando 
+   python3.12 --version
+   #Si no aparece descargalo directamente de la pagina oficial 
+   https://www.python.org/downloads/release/python-3120/ 
+   #Librerias
    pip install ultralytics
    pip install opencv-python
    pip install numpy
@@ -59,7 +64,7 @@ Para su Ejecucion:
    #Version necesaria
    ultralytics>=8.0.0
    opencv-python>=4.5.0
-    numpy>=1.19.0
+   numpy>=1.19.0
   
 
    ```
