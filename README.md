@@ -10,25 +10,25 @@ Se utilizó el modelo **YOLOv8n** (versión nano) por su eficiencia en tareas en
 
 ---
 
-##**Código Fuente**
+Código Fuente
 
 Archivo principal:  
-**VisionArtificial.py**
+VisionArtificial.py
 
 Repositorio:  
 [https://github.com/Lugtz/AXOLOTLCODE](https://github.com/Lugtz/AXOLOTLCODE)
 
 ---
 
-##** Requisitos**
+Requisitos
 
-- **Python 3.12**
+- Python 3.12
 - Sistema operativo: Windows (probado en Windows 10)
 - Cámara conectada y operativa
 
 ---
 
-## **Instalación**
+Instalación
 
 1. Clonar el repositorio:
 
@@ -52,7 +52,7 @@ Repositorio:
 
 ---
 
-## Ejecución
+ Ejecución
 
 Para ejecutar el clasificador:
 
@@ -64,7 +64,7 @@ Presiona la tecla `q` para cerrar la aplicación.
 
 ---
 
-## Dependencias
+Dependencias
 
 * `ultralytics >= 8.0.0`
 * `opencv-python`
@@ -74,7 +74,7 @@ Estas dependencias están especificadas en el archivo `requirements.txt`.
 
 ---
 
-## Funcionamiento
+Funcionamiento
 
 * Se accede a la cámara y se procesa cada frame en tiempo real.
 * El modelo **YOLOv8n** detecta los objetos presentes.
@@ -84,7 +84,7 @@ Estas dependencias están especificadas en el archivo `requirements.txt`.
 
 ---
 
-## Capturas del Funcionamiento
+ Capturas del Funcionamiento
 
 Se encuentran en la carpeta:
 
@@ -93,16 +93,16 @@ Se encuentran en la carpeta:
 ```
 
 
-## Documentación Técnica
+ Documentación Técnica
 
-### Arquitectura del Sistema
+Arquitectura del Sistema
 
 1. Captura de video mediante OpenCV
 2. Detección en tiempo real usando YOLOv8n
 3. Clasificación del objeto detectado
 4. Visualización con etiquetas personalizadas sobre el video
 
-### Algoritmos
+ Algoritmos
 
 * Modelo preentrenado YOLOv8n (`yolov8n.pt`)
 * Uso de clases del dataset COCO:
@@ -112,8 +112,7 @@ Se encuentran en la carpeta:
   * Sin detección = Fondo / Indefinido
 
 ---
-
-## Decisiones de Diseño
+ Decisiones de Diseño
 
 * Se usó YOLOv8n por su velocidad de inferencia en entornos sin GPU.
 * Toda la lógica fue encapsulada en un solo script (`VisionArtificial.py`).
@@ -122,7 +121,7 @@ Se encuentran en la carpeta:
 
 ---
 
-## Posibles Errores y Soluciones
+ Posibles Errores y Soluciones
 
 Error: No se pudo acceder a la cámara.
 Posible causa: el índice de la cámara es incorrecto o está en uso por otra aplicación.
@@ -139,15 +138,6 @@ Solución: Asegúrate de usar cv2.CAP_DSHOW en la línea cv2.VideoCapture() si e
 Error de compatibilidad con Python.
 Posible causa: se está usando una versión de Python no compatible.
 Solución: Este proyecto fue desarrollado con Python 3.12, por lo tanto, se recomienda utilizar esa misma versión para evitar errores.
-
-
-## Recomendaciones Finales
-
-* Confirmar que la cámara funciona antes de ejecutar el script.
-* Verificar el entorno virtual y dependencias antes de la entrevista.
-* Asegurar iluminación suficiente para que YOLOv8 realice detecciones precisas.
-* Capturar screenshots reales para incluir en el repositorio como evidencia visual.
-* Se sugiere probar en distintos entornos para comprobar robustez.
 
 ---
 
