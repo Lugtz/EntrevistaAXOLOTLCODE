@@ -16,7 +16,7 @@ Archivo principal:
 VisionArtificial.py
 
 Repositorio:  
-[https://github.com/Lugtz/AXOLOTLCODE](https://github.com/Lugtz/AXOLOTLCODE)
+https://github.com/Lugtz/EntrevistaAXOLOTLCODE
 
 ---
 
