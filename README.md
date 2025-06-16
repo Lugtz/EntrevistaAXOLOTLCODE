@@ -34,7 +34,9 @@ Instalación
 
    ```bash
    git clone https://github.com/Lugtz/AXOLOTLCODE.git
-   cd VisionArtificial.py
+   cd EntrevistaP
+Para su Ejecucion:
+   python VisionArtificial.py
 ````
 
 2. (Opcional) Crear y activar entorno virtual:
@@ -47,7 +49,14 @@ Instalación
 3. Instalar dependencias:
 
    ```bash
-   pip install -r requirements.txt
+   pip install ultralytics
+   pip install opencv-python
+   Si tienes problemas con la cámara en Windows, puedes instalar también:
+   pip install opencv-contrib-python
+   Verifica la instalación:
+   python -c "import cv2; import ultralytics; print('Todo listo')"
+   pip install 
+
    ```
 
 ---
