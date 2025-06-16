@@ -2,7 +2,7 @@
 Visión por computadora en tiempo real con YOLOv8n para la clasificacion de: Objetos, Personas y Fondo
 
 ````markdown
-# Clasificador de Objetos en Tiempo Real con YOLOv8n
+ Clasificador de Objetos en Tiempo Real con YOLOv8n
 
 Este proyecto fue desarrollado como una prueba técnica para la empresa **AXOLOTLCODE**, con el objetivo de demostrar habilidades en visión por computadora en tiempo real utilizando modelos de detección optimizados. El sistema identifica si frente a la cámara hay una persona, un objeto o si no hay ninguna detección (fondo).
 
@@ -10,7 +10,7 @@ Se utilizó el modelo **YOLOv8n** (versión nano) por su eficiencia en tareas en
 
 ---
 
-## Código Fuente
+##**Código Fuente**
 
 Archivo principal:  
 **VisionArtificial.py**
@@ -20,7 +20,7 @@ Repositorio:
 
 ---
 
-## Requisitos
+##** Requisitos**
 
 - **Python 3.12**
 - Sistema operativo: Windows (probado en Windows 10)
@@ -28,7 +28,7 @@ Repositorio:
 
 ---
 
-## Instalación
+## **Instalación**
 
 1. Clonar el repositorio:
 
