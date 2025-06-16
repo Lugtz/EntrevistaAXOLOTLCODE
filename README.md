@@ -55,7 +55,7 @@ Para su Ejecucion:
    pip install opencv-contrib-python
    Verifica la instalación:
    python -c "import cv2; import ultralytics; print('Todo listo')"
-   pip install 
+  
 
    ```
 
